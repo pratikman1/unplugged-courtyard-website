@@ -380,7 +380,11 @@ export default function Page() {
               Make a reservation <CalendarDays size={16} />
             </button>
           </div>
-          <div className="map-card">
+          <a
+            href="https://www.google.com/maps/place/Unplugged+Courtyard/@28.6343368,77.2215338,764m/data=!3m2!1e3!4b1!4m6!3m5!1s0x390cfd377c796d95:0xfe87b80c01070179!8m2!3d28.6343368!4d77.2215338!16s%2Fg%2F11clnndpyw!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noreferrer"
+            className="map-card">
             <div className="map-lines" />
             <div className="map-pin">
               <MapPin size={22} /> <span>UC</span>
@@ -390,7 +394,7 @@ export default function Page() {
               <br />
               <small>New Delhi</small>
             </div>
-          </div>
+          </a>
         </div>
       </section>
 
