@@ -436,7 +436,7 @@ export default function Page() {
               Call us at <strong>+91 88260 02788</strong> or send a request to
               reservations@CafeAURIKA.com
             </p>
-            <a className="solid-btn" href="tel:+911143528888">
+            <a className="solid-btn" href="tel:+918826002788">
               Call to book <ArrowUpRight size={16} />
             </a>
           </div>
