@@ -203,16 +203,16 @@ export default function Page() {
         className={`loader ${loading ? "is-visible" : "is-hidden"}`}
         aria-hidden={!loading}>
         <div className="loader-mark">UC</div>
-        <span>Unplugged Courtyard</span>
+        <span>Cafe AURIKA</span>
       </div>
       <div className="grain" />
       <header className="nav">
         <a className="brand" href="#top">
           <span>UC</span>
           <b>
-            Unplugged
+            Cafe 
             <br />
-            Courtyard
+            AURIKA
           </b>
         </a>
         <nav className={menuOpen ? "nav-links open" : "nav-links"}>
@@ -256,7 +256,7 @@ export default function Page() {
             <ArrowDownRight size={17} /> Scroll to explore
           </span>
           <span className="hero-location">
-            <MapPin size={15} /> Connaught Place, New Delhi
+            <MapPin size={15} /> Gurugram, Haryana
           </span>
           <span className="hero-index">0{activeSlide + 1} / 04</span>
         </div>
@@ -295,7 +295,7 @@ export default function Page() {
               trees of Connaught Place.
             </p>
             <p>
-              Unplugged Courtyard is a restaurant, bar and open-air hideaway
+              Cafe AURIKA is a restaurant, bar and open-air hideaway
               made for long lunches, late dinners and the kind of conversations
               that accidentally run past midnight.
             </p>
@@ -369,11 +369,11 @@ export default function Page() {
             <div className="address">
               <MapPin size={18} />
               <span>
-                Unplugged Courtyard
+                Cafe AURIKA
                 <br />
-                8, D Block, Inner Circle
+                Sushant Lok -1, Sector 43
                 <br />
-                Connaught Place, New Delhi 110001
+                Gurugram, Haryana 122003
               </span>
             </div>
             <button className="solid-btn" onClick={() => setBooking(true)}>
@@ -381,7 +381,7 @@ export default function Page() {
             </button>
           </div>
           <a
-            href="https://www.google.com/maps/place/Unplugged+Courtyard/@28.6343368,77.2215338,764m/data=!3m2!1e3!4b1!4m6!3m5!1s0x390cfd377c796d95:0xfe87b80c01070179!8m2!3d28.6343368!4d77.2215338!16s%2Fg%2F11clnndpyw!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"
+            href="https://www.google.com/maps/place/Cafe+AURIKA+%7C+Sushant+Lok+-1,+Sector+43/@28.4596543,77.0792094,766m/data=!3m2!1e3!4b1!4m6!3m5!1s0x390d192f311eb591:0x75963c869270cd51!8m2!3d28.4596543!4d77.0792094!16s%2Fg%2F11mq5rbj6y!5m1!1e1?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noreferrer"
             className="map-card">
@@ -390,9 +390,9 @@ export default function Page() {
               <MapPin size={22} /> <span>UC</span>
             </div>
             <div className="map-label">
-              Connaught Place
+              Gurugram
               <br />
-              <small>New Delhi</small>
+              <small>Haryana </small>
             </div>
           </a>
         </div>
@@ -401,7 +401,7 @@ export default function Page() {
       <footer>
         <div className="footer-brand">UC</div>
         <div>
-          <p>Unplugged Courtyard</p>
+          <p>Cafe AURIKA</p>
           <small>Eat slowly. Stay awhile.</small>
         </div>
         <a
@@ -433,8 +433,8 @@ export default function Page() {
               <em>for yourself.</em>
             </h2>
             <p>
-              Call us at <strong>+91 11 4352 8888</strong> or send a request to
-              reservations@unpluggedcourtyard.com
+              Call us at <strong>+91 88260 02788</strong> or send a request to
+              reservations@CafeAURIKA.com
             </p>
             <a className="solid-btn" href="tel:+911143528888">
               Call to book <ArrowUpRight size={16} />

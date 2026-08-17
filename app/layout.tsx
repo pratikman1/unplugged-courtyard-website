@@ -7,7 +7,7 @@ const cormorant = Cormorant_Garamond({ subsets: ['latin'], variable: '--font-cor
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Unplugged Courtyard — Eat slowly. Stay awhile.',
+  title: 'Cafe AURIKA— Eat slowly. Stay awhile.',
   description: 'A dining room, bar and open-air hideaway in the heart of Connaught Place, New Delhi.',
   generator: 'v0.app',
   icons: {
